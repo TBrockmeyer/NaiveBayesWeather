@@ -1,0 +1,11 @@
+@RELATION Naive-Bayes
+
+@ATTRIBUTE "Bewoelkung" {"sonnig","bewoelkt","regnerisch"}
+@ATTRIBUTE "Temperatur" {"hoch","mittel","niedrig"}
+@ATTRIBUTE "Feuchtigkeit" {"normal","hoch"}
+@ATTRIBUTE "Wind" {"ja","nein"}
+@ATTRIBUTE "Bewertung" {"+","-"}
+
+@DATA
+"regnerisch","mittel","hoch","nein",?
+"sonnig","mittel","hoch","ja",?
