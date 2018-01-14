@@ -12,6 +12,7 @@ The file trainingsdaten.arff contains data the prediction is based on:
 * 6    b'"bewoelkt"'     b'"hoch"'      b'"hoch"'    b'"ja"'      b'"-"'
 * 7      b'"sonnig"'   b'"mittel"'    b'"normal"'  b'"nein"'      b'"+"'
 * 8    b'"bewoelkt"'   b'"mittel"'      b'"hoch"'    b'"ja"'      b'"-"'
+(the leading "b" characters indicate that the values are saved in a binary format in trainingsdaten.arff, a fact to be considered when filtering the value tables with the Python pandas package)
 
 The code snippet currently "predicts" the human evaluation of the following weather condition pattern:
 * regnerisch, mittel, hoch, nein (rainy, medium, high, no)
